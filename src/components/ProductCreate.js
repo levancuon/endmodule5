@@ -39,7 +39,7 @@ function ProductCreate() {
         description: yup.string().required("Mô tả không được để trống"),
         price: yup.number().required(" Giá không được để trống").min(0, "Giá phải lớn hơn 0 "),
         quantity: yup.number().required("Số lượng không được để trống").min(0, "Điểm ko đc âm "),
-        date: yup.date().required("Ngày không được để trống").min(new Date(), "ngày phải lớn hơn ngày hiện tại"),
+        date: yup.date().required("Ngày không được để trống").max(new Date(), "ngày phải bé hơn ngày hiện tại"),
         categoryId: yup.number().required("Thể loại không được để trống")
 
     }
