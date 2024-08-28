@@ -1,0 +1,91 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "code": "PROD-0001",
+      "name": "shoes",
+      "description": "good",
+      "price": 500000,
+      "quantity": "3",
+      "date": "05-05-2024",
+      "categoryId": 3
+    },
+    {
+      "id": 2,
+      "code": "PROD-0001",
+      "name": "shoes",
+      "description": "good",
+      "price": 500000,
+      "quantity": "3",
+      "date": "05-05-2024",
+      "categoryId": 3
+    },
+    {
+      "id": 3,
+      "code": "PROD-0001",
+      "name": "shoes",
+      "description": "good",
+      "price": 500000,
+      "quantity": "3",
+      "date": "05-05-2024",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "code": "PROD-0001",
+      "name": "shirt",
+      "description": "good",
+      "price": 500000,
+      "quantity": "3",
+      "date": "05-05-2024",
+      "categoryId": 2
+    },
+    {
+      "code": "PROD-0254",
+      "name": "alo alo",
+      "description": "Đẹp trai chung tình chỉ yêu mỗi em.",
+      "price": "213",
+      "quantity": "123",
+      "date": "31-08-2024",
+      "categoryId": "1",
+      "id": 6
+    },
+    {
+      "code": "PROD-0254",
+      "name": "aaaaa",
+      "description": "Đẹp trai chung tình chỉ yêu mỗi em.",
+      "price": "321",
+      "quantity": "123",
+      "date": "30-08-2024",
+      "categoryId": "2",
+      "id": 7
+    },
+    {
+      "code": "PROD-0254",
+      "name": "aaaaa",
+      "description": "Đẹp trai chung tình chỉ yêu mỗi em.",
+      "price": "32111",
+      "quantity": "123",
+      "date": "30-08-2024",
+      "categoryId": "2",
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "gucci",
+      "description": "good"
+    },
+    {
+      "id": 2,
+      "name": "luisVuitton",
+      "description": "vip"
+    },
+    {
+      "id": 3,
+      "name": "bitis",
+      "description": "pro"
+    }
+  ]
+}
